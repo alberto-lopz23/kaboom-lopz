@@ -69,7 +69,7 @@ class UiManager {
     displayControls() {
         add([sprite("forest-background"), scale(4.5)])
         add([
-            text("Controls", { font: "Round", size: 50 }),
+            text("Controles", { font: "Round", size: 50 }),
             area(),
             anchor("center"),
             pos(center().x, center().y - 200),
@@ -98,6 +98,14 @@ class UiManager {
         controlPrompts.add([
             sprite("space"),
             pos(-300, 0)
+        ])
+        controlPrompts.add([
+            text("Salto", { font: "Round", size: 24 }),
+            pos(-290, 250)
+        ])
+        controlPrompts.add([
+            text("moverse", { font: "Round", size: 24 }),
+            pos(0, 250)
         ])
 
 
